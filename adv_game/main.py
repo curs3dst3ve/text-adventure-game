@@ -2,10 +2,25 @@
 # text adventure game
 ##############################
 # variables
-na = "Adventurer"
+name = "Adventurer"
 die = False
-insane_Effect = False
-Poisoned = False
-Health = 100
+insane_effect = False
+poisoned = False
+health = 100
+wood = 0
+metal = 0
+gem = 0
+keys = 0
+secret_keys = 0
+secret_activator = False
+secret_activator_2 = False
+secret_activator_3 = False
 ##############################
-print("Hello Adventurer!")
+input()
+print("Hello! " + na +
+      ", This Text Adventure Game is open source and open for contribution.")
+print("If you are playing this game, please support or credit the creator please!")
+print("If you need help, or you want to contribute, can look at the game source code here: ")
+print("Alright then,  " + na + "! Let's get started!\n")
+print("Starting Game.")
+print("Hello " + na + "!")
