@@ -2,7 +2,7 @@
 # text adventure game
 ##############################
 # variables
-na = "Adventurer"
+na = ""
 die = False
 insane_effect = False
 poisoned = False
@@ -20,7 +20,8 @@ input()
 print("Hello! " + na +
       ", This Text Adventure Game is open source and open for contribution.")
 print("If you are playing this game, please support or credit the creator please!")
-print("If you need help, or you want to contribute, can look at the game source code here: ")
-print("Alright then, " + na + "! Let's get started!")
+print("If you need help, or you want to contribute, can look at the game source code here: \nhttps://github.com/curs3dst3ve/text-adventure-game ")
+print("Alright then, " + na + " Let's get started!")
+na = str(input("To begin, what's you name?\n"))
 print("Starting Game.\n")
 print("Hello " + na + "!")
