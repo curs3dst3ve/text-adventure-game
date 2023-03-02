@@ -16,7 +16,7 @@ secret_activator = False
 secret_activator_2 = False
 secret_activator_3 = False
 ##############################
-input()
+print("\n")
 print("Hello! " + na +
       ", This Text Adventure Game is open source and open for contribution.")
 print("If you are playing this game, please support or credit the creator please!")
@@ -25,3 +25,4 @@ print("Alright then, " + na + " Let's get started!")
 na = str(input("To begin, what's you name?\n"))
 print("Starting Game.\n")
 print("Hello " + na + "!")
+
