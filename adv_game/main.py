@@ -33,7 +33,9 @@ if pronoun == "He/Him" or "he/him" or "he/Him" or "He/him":
     pronoun = boypronouns
 elif pronoun == "She/Her" or "she/her" or "she/Her" or "She/her":
     pronoun = girlpronouns
-else pronoun == "He/Him" or "he/him" or "he/Him" or "He/him":
+elif pronoun == "He/Him" or "he/him" or "he/Him" or "He/him":
     pronoun = theypronouns
+else:
+    print("Error 1: Pronoun Choosing.")
 print("Starting Game.\n")
 print("Hello " + na + "!")
