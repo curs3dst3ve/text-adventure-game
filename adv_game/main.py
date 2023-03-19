@@ -2,7 +2,10 @@
 # text adventure game
 ##############################
 # variables
-boypronuns = "he,him,mr,etc etc etc etc"
+boypronouns = "he,him,mr,etc etc etc etc"
+girlpronouns = "she her mrs etc etc etc"
+theypronouns = "they them etc etc etc"
+pronouns = ""
 na = ""
 die = False
 insane_effect = False
@@ -28,5 +31,9 @@ pronoun = input(
     "Next, what's your pronouns? \n Select From \n He/Him \n She/Her \n or They/Them \n")
 if pronoun == "He/Him" or "he/him" or "he/Him" or "He/him":
     pronoun = boypronouns
+elif pronoun == "She/Her" or "she/her" or "she/Her" or "She/her":
+    pronoun = girlpronouns
+else pronoun == "He/Him" or "he/him" or "he/Him" or "He/him":
+    pronoun = theypronouns
 print("Starting Game.\n")
 print("Hello " + na + "!")
