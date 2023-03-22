@@ -40,7 +40,7 @@ else:
     print("Error 1: Pronoun Choosing.")
 
 difficulty = input(
-    "Then, please choose a difficulty.\n Easy\n Normal\n Hard\n Expert\n Master\n why the fuck would you choose this difficulty?\n")
+    "Then, please choose a difficulty.\n Easy\n Normal\n Hard\n Expert\n Master\n why the  would you choose this difficulty?\n")
 
 print("Starting Game.\n")
 print("Hello " + na + "!")
