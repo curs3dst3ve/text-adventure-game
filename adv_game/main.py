@@ -38,7 +38,7 @@ elif pronoun == "She/Her" or "she/her" or "she/Her" or "She/her":
 elif pronoun == "He/Him" or "he/him" or "he/Him" or "He/him":
     pronoun = theypronouns
 else:
-    print("Error 1: Pronoun Choosing.")
+    print("whoops")
 
 difficulty = input(
     "Then, please choose a difficulty.\n Easy\n Normal\n Hard\n Expert\n Master\n why the  would you choose this difficulty?\n")
