@@ -43,5 +43,6 @@ else:
 difficulty = input(
     "Then, please choose a difficulty.\n Easy\n Normal\n Hard\n Expert\n Master\n why the  would you choose this difficulty?\n")
 
+print("This game is mostly second person, but there will be first or third person lines.")
 print("Starting Game.\n")
 print("Hello " + na + "!")
